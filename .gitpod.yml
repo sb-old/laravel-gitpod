@@ -32,6 +32,9 @@ ports:
   - port: 3306
     onOpen: ignore
     name: MySQL Database Port
+  - port: 8000
+    name: Laravel application port
+    visibility: public
 
 vscode:
   extensions:
